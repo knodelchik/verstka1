@@ -10,19 +10,19 @@
 </head>
 
 <body>
-    <header class="header hide">
+    <header class="header ">
         <div class="container flex-header">
             <h2 class="logo">Velocity</h2>
             <nav class="nav">
                 <ul>
-                    <li><a href="#!">Home</a></li>
-                    <li><a href="#!">Contact</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#footer">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
-        <section class="first-screen hide">
+    <main id="main">
+        <section class="first-screen ">
             <div class="container">
                 <h1 class="first-screen-title">This is Velocity</h1>
                 <div class="buttons">
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </section>
-        <section class="service common-section dark-common-section">
+        <section class="service common-section dark-common-section  ">
             <div class="container">
                 <h2 class="service-title title">services</h2>
                 <p class="service-text text text-padding">This is some text inside of a div block.</p>
@@ -81,14 +81,127 @@
                 </div>
             </div>
         </section>
-        <section class="tab common-section">
+
+        <section class="tab common-section ">
             <div class="container">
                 <h2 class="tab-title title">Tab Section</h2>
                 <p class="tab-text text text-padding">This is some text inside of a div block.</p>
-            </div>
-            
+                <div class="tabs">
+                    <div class="tabs-nav">
+                        <button class="active" type="button">Tab Button 1</button>
+                        <button type="button">Tab Button 2</button>
+                        <button type="button">Tab Button 3</button>
+                    </div>
+                    <div class="tabs-item">
+                        <img src="assets/images/IMAGE1.png" alt="img">
+                        <h4 class="tabs-title">Some Title Here 1</h4>
+                        <div class="tabs-text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                varius enim in eros elementum tristique.
+                            </p>
+                            <p>
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                                commodo diam libero vitae erat.
+                            </p>
+                            <p>
+
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
+                                ut sem vitae risus tristique posuere.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tabs-item">
+                        <img src="assets/images/IMAGE2.jpg" alt="img">
+                        <h4 class="tabs-title">Some Title Here 2</h4>
+                        <div class="tabs-text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                varius enim in eros elementum tristique.
+                            </p>
+                            <p>
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                                commodo diam libero vitae erat.
+                            </p>
+                            <p>
+
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
+                                ut sem vitae risus tristique posuere.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tabs-item">
+                        <img src="assets/images/IMAGE3.jpg" alt="img">
+                        <h4 class="tabs-title">Some Title Here 3</h4>
+                        <div class="tabs-text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                varius enim in eros elementum tristique.
+                            </p>
+                            <p>
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                                commodo diam libero vitae erat.
+                            </p>
+                            <p>
+
+                                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
+                                ut sem vitae risus tristique posuere.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
         </section>
     </main>
+    <footer id="footer" class=" ">
+        <div class="footer-desc container">
+                <div class="footer-about">
+                    <h5>about velocity</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo
+                        diam libero vitae erat.</p>
+                </div>
+                <div class="footer-links">
+                    <h5>useful links</h5>
+                    <ul>
+                        <li><a href="#!">Phasellus gravida semper nisi</a></li>
+                        <li><a href="#!">Suspendisse nisl elit</a></li>
+                        <li><a href="#!">Dellentesque habitant morbi</a></li>
+                        <li><a href="#!">Etiam sollicitudin ipsum</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h5>social</h5>
+                    <ul>
+                        <li>
+                            <img src="assets/images/twitter.svg" alt="">
+                            <a href="#!">Twitter</a>
+                        </li>
+                        <li>
+                            <img src="assets/images/facebook.svg" alt="">
+                            <a href="#!">Facebook</a>
+                        </li>
+                        <li>
+                            <img src="assets/images/pinterest.svg" alt="">
+                            <a href="#!">Pinterest</a>
+                        </li>
+                        <li>
+                            <img src="assets/images/google.svg" alt="">
+                            <a href="#!">Google</a>
+                        </li>
+                        <li>
+                            <img src="assets/images/webflow.svg" alt="">
+                            <a href="#!">Webflow</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        <div class="footer-copy">
+            <p>Copyright Velocity Inc. Made in Webflow.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
 </body>
+
 
 </html>
